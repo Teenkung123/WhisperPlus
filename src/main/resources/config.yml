@@ -1,0 +1,18 @@
+Message:
+  #Available Placeholder: <sender> <receiver> <sender-display> <receiver-display> <message>
+  #Hex color format is #ffffff
+  Prefix: "&7[&bWhisperPlus&7]&r"
+  Whisper-Receive: "<prefix> &6[&e<sender>&6] &e-> &6[&fYou&6]: &f<message>"
+  Whisper-Send: "<prefix> &6[&fYou&6] &e-> &6[&e<receiver>&6]: &f<message>"
+  SocialSpy: "<prefix> &6[&c<sender>&6] &e-> &6[&a<receiver>&6]: &f<message>"
+  SocialSpy-On: "<prefix> &6SocialSpy is now &aOn"
+  SocialSpy-Off: "<prefix> &6SocialSpy is now &cOff"
+  Player-Not-Found: "<prefix> &cPlayer Not Found"
+  Same-Message-Block: "<prefix> &cYou cannot send this message twice!"
+  Console-User: "&cConsole"
+
+
+Settings:
+  Default-SocialSpy-On: true
+  Enabled-History: true
+  Same-Message-Blocker: true
